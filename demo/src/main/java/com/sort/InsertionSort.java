@@ -8,7 +8,7 @@ public class InsertionSort {
 
   public static void main(String[] args) {
     String fileName =
-      "C:\\Users\\rudyc\\Documents\\GitHub\\Lovelace-Cupcakes\\demo\\src\\main\\java\\com\\sort\\cupcake_test_10.json";
+      "C:\\Users\\rudyc\\Documents\\GitHub\\Lovelace-Cupcakes\\demo\\src\\main\\java\\com\\sort\\cupcake_3906.json";
     // String fileName =
     //   "C:\\Users\\rudyc\\Documents\\GitHub\\Lovelace-Cupcakes\\demo\\src\\main\\java\\com\\sort\\cupcake_3906.json";
 
@@ -22,7 +22,7 @@ public class InsertionSort {
     print(cupcakeNameArray);
 
     // sort
-    insertSort(cupcakeNameArray);
+    insertionSort(cupcakeNameArray);
 
     // print sorted list
     System.out.println("----- Sorted array----- ");
@@ -56,17 +56,18 @@ public class InsertionSort {
     return arr;
   }
 
-//insert sort array
-  public static void insertSort(String[] arr) {
-    int n = arr.length;
-    for (int i = 0; i < n; i++) {
-        String key = arr[i];
-        int j = i - 1;
-    while (j >= 0 && key.length() < arr[j].length()) {
-        arr[j + 1] = arr[j];
-        j--;}
-    arr[j + 1] = key;
-        }
-    }
+//insertion sort array
+  public static void insertionSort(String[] arr) {
+      for (int i=0; i < arr.length; i++) { 
+          for (int j = i + 1; j < arr.length; j++) { 
+              if (arr[i].compareTo(arr[j]) 
+                  > 0) { 
+                  String temp = arr[i]; 
+                  arr[i] = arr[j]; 
+                  arr[j] = temp; 
+              } 
+          } 
+      } 
+  } 
 }
 
