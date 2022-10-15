@@ -8,7 +8,7 @@ public class MergeSort {
 
   public static void main(String[] args) {
     String fileName =
-    "C:\\Users\\rudyc\\Documents\\GitHub\\Lovelace-Cupcakes\\demo\\src\\main\\java\\com\\sort\\cupcake_3906.json";
+    "C:\\Users\\rudyc\\Documents\\GitHub\\Lovelace-Cupcakes\\demo\\src\\main\\java\\com\\sort\\cupcake_test_10.json";
     // String fileName =
     //   "C:\\Users\\rudyc\\Documents\\GitHub\\Lovelace-Cupcakes\\demo\\src\\main\\java\\com\\sort\\cupcake_3906.json";
 
