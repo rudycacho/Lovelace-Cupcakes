@@ -10,7 +10,7 @@ public class BubbleSort {
     String fileName =
       "C:\\Users\\rudyc\\Documents\\GitHub\\Lovelace-Cupcakes\\demo\\src\\main\\java\\com\\sort\\cupcake_3906.json";
     // String fileName =
-    //   ""C:\Users\rudyc\Documents\GitHub\Lovelace-Cupcakes\com\src\main\java\com\sort\cupcake_3906.json"";
+    //   "C:\\Users\\rudyc\\Documents\\GitHub\\Lovelace-Cupcakes\\demo\\src\\main\\java\\com\\sort\\cupcake_3906.json";
 
     // read cupcake names
     JSONArray cupcakeArray = JSONFile.readArray(fileName);
