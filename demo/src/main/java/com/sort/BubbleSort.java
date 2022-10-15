@@ -1,6 +1,6 @@
-package com.src.main.java.com.sort;
+package com.sort;
 
-import org.json.simple.*;
+import com.json.simple.*;
 
 public class BubbleSort {
 
@@ -8,9 +8,9 @@ public class BubbleSort {
 
   public static void main(String[] args) {
     String fileName =
-      "/Users/jerom/Documents/GitHub/class-java/sort/demo/src/main/java/com/sort/cupcake_3906.json";
+      "C:\Users\rudyc\Documents\GitHub\Lovelace-Cupcakes\com\src\main\java\com\sort\cupcake_3906.json";
     // String fileName =
-    //   "/Users/jerom/Documents/GitHub/class-java/sort/demo/src/main/java/com/sort/cupcake_10.json";
+    //   ""C:\Users\rudyc\Documents\GitHub\Lovelace-Cupcakes\com\src\main\java\com\sort\cupcake_3906.json"";
 
     // read cupcake names
     JSONArray cupcakeArray = JSONFile.readArray(fileName);

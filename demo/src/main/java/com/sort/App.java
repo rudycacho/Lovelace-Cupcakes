@@ -1,4 +1,4 @@
-package com.src.main.java.com.sort;
+package com.sort;
 
 /**
  * Hello world!
